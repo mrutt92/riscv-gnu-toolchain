@@ -76,7 +76,7 @@ endif
 
 make_tuple = riscv$(1)-unknown-$(2)
 LINUX_TUPLE  ?= $(call make_tuple,$(XLEN),linux-gnu)
-NEWLIB_TUPLE ?= $(call make_tuple,$(XLEN),elf)
+NEWLIB_TUPLE ?= $(call make_tuple,$(XLEN),elfpandodrvsim)
 MUSL_TUPLE ?= $(call make_tuple,$(XLEN),linux-musl)
 
 CFLAGS_FOR_TARGET := $(CFLAGS_FOR_TARGET_EXTRA) $(DEBUG_INFO) @target_cflags@ @cmodel@
