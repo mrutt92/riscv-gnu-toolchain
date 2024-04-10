@@ -15,8 +15,8 @@
 	branch = dejagnu-1.6.3
 [submodule "newlib"]
 	path = newlib
-	url = git@github.com:AMDResearch/pando-newlib-cygwin.git
-	branch = master
+	url = git@github.com:mrutt92/newlib-cygwin.git
+	branch = pando-bsp
 [submodule "gdb"]
 	path = gdb
 	url = https://sourceware.org/git/binutils-gdb.git
